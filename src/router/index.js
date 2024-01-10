@@ -5,6 +5,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import HomePage from '../views/HomePage.vue';
 import ProductRegistration from '../views/ProductRegistration.vue';
 import ClientRegistration from '../views/ClientRegistration.vue';
+import ProductClientAssociation from '../views/ProductClientAssociation.vue';
 
 const routes = [
   {
@@ -21,6 +22,11 @@ const routes = [
     path: '/register-client',
     name: 'RegisterClient',
     component: ClientRegistration
+  },
+  {
+    path: '/associate-products',
+    name: 'AssociateProducts',
+    component: ProductClientAssociation
   }
 
 ];
