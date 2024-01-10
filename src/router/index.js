@@ -6,6 +6,8 @@ import HomePage from '../views/HomePage.vue';
 import ProductRegistration from '../views/ProductRegistration.vue';
 import ClientRegistration from '../views/ClientRegistration.vue';
 import ProductClientAssociation from '../views/ProductClientAssociation.vue';
+import ListingsControl from '../views/ListingsControl.vue';
+
 
 const routes = [
   {
@@ -27,6 +29,11 @@ const routes = [
     path: '/associate-products',
     name: 'AssociateProducts',
     component: ProductClientAssociation
+  },
+  {
+    path: '/listings-control',
+    name: 'ListingsControl',
+    component: ListingsControl
   }
 
 ];
