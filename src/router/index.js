@@ -1,8 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
 
+
 import HomePage from '../views/HomePage.vue';
 import ProductRegistration from '../views/ProductRegistration.vue';
+import ClientRegistration from '../views/ClientRegistration.vue';
 
 const routes = [
   {
@@ -14,6 +16,11 @@ const routes = [
     path: '/register-product',
     name: 'RegisterProduct',
     component: ProductRegistration
+  },
+  {
+    path: '/register-client',
+    name: 'RegisterClient',
+    component: ClientRegistration
   }
 
 ];
