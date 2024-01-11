@@ -1,8 +1,8 @@
 # desafio_vue
 
-Uma breve descrição do que seu projeto faz.
+Uma breve descrição do meu projeto faz.
 
-Configuração do Projeto
+# Configuração do Projeto
 
 Antes de iniciar o projeto, certifique-se de ter instalado o Node.js e o npm (que acompanha o Node.js) em sua máquina.
 
@@ -32,7 +32,7 @@ Para executar o linting (verificação de qualidade e formatação do código) e
 
 npm run lint
  
- Estrutura do Projeto
+#  Estrutura do Projeto
 
 Breve descrição da organização do projeto:
 
@@ -53,7 +53,7 @@ Meu-projeto/
 ├── package.json         # Dependências e scripts do projeto
 └── README.md            # Documentação do projeto (este arquivo)
 
-Testes
+# Testes
 
 Para executar os testes unitários do projeto, use:
 npm run test
